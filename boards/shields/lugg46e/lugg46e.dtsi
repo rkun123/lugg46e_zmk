@@ -5,11 +5,13 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "lugg46e-layouts.dtsi"
 
 / {
 	chosen {
 		zmk,kscan = &kscan0;
 		zmk,matrix_transform = &default_transform;
+		zmk,physical-layout = &physical_layout0;
 	};
 
 	default_transform: keymap_transform_0 {
@@ -40,5 +42,10 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)                 RC(2,6) RC(2,7) 
 			, <&xiao_d 8 GPIO_ACTIVE_HIGH>
 			, <&xiao_d 7 GPIO_ACTIVE_HIGH>
 			;
+	};
+
+	&physical_layout0 {
+		kscan = <&kscan0>;
+		transform = <&keymap_transform_0>;
 	};
 };

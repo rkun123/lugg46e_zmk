@@ -36,7 +36,7 @@
     &kp ESC    &kp Q    &kp W     &kp E     &kp R     &kp T                            &kp Y     &kp U     &kp I     &kp O     &kp P     &kp GRAVE
     &kp LCTRL  &kp A    &kp S     &kp D     &kp F     &kp G                            &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &kp SEMI  &kp SQT
     &kp LSHIFT &kp Z    &kp X     &kp C     &kp V     &kp B                            &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp BSLH
-                        &kp LALT  &kp LGUI  &mo LOWER &kp SPACE  &kp LPAR    &kp RPAR  &kp RET   &mo RAISE &kp BSPC  &kp DEL
+                        &kp LALT  &kp LGUI  &mo LOWER &kp SPACE  &kp LPAR    &kp RPAR  &kp RET   &mo RAISE &kp BSPC  &studio_unlock
             >;
         };
     };
